@@ -1,0 +1,21 @@
+//
+//  pch.pch
+//  XmppDemo
+//
+//  Created by 杨力 on 14/6/2016.
+//  Copyright © 2016 杨力. All rights reserved.
+//
+
+#ifndef pch_pch
+#define pch_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "DEFIND.h"
+#import "ZCControl.h"
+#import "RegisterManager.h"
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+#endif
+#endif /* pch_pch */

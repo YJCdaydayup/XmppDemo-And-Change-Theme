@@ -1,0 +1,10 @@
+PODS:
+  - UMengFeedback (2.3.4)
+
+DEPENDENCIES:
+  - UMengFeedback (~> 2.3.4)
+
+SPEC CHECKSUMS:
+  UMengFeedback: 5283cc0e324dffca4dd54c4abb3cbded56487817
+
+COCOAPODS: 0.39.0

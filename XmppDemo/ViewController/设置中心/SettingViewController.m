@@ -13,6 +13,7 @@
 #import "LoginViewController.h"
 #import "MyVcardViewController.h"
 #import "ThemeViewController.h"
+#import "UMFeedbackViewController.h"
 
 @interface SettingViewController (){
     
@@ -200,6 +201,14 @@
         case 5:
             
             //反馈
+        {
+            UMFeedbackViewController * vc = [[UMFeedbackViewController alloc]init];
+            UINavigationController * nvc = [[UINavigationController alloc]initWithRootViewController:vc];
+            [self presentViewController:nvc animated:YES completion:nil];
+    
+//            [self presentViewController:[UMFeedback feedbackViewController] animated:YES completion:nil];
+//            [self.navigationController pushViewController:[UMFeedback feedbackViewController] animated:YES];
+        }
             
             break;
             

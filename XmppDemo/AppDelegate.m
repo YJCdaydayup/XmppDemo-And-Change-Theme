@@ -11,6 +11,7 @@
 #import "MainSliderViewController.h"
 #import "ZipArchive.h"
 
+#define UmengKey @"57675eeb67e58efca1002b06"
 
 @interface AppDelegate ()
 
@@ -66,6 +67,12 @@
         [udf setObject:@"appFirst" forKey:@"appFirst"];
         [udf synchronize];
     }
+    
+    //友盟反馈
+    [UMFeedback setAppkey:UmengKey];
+    
+    
+    
     
     /*
      判断用户是否登录过，登录后 直接界面主界面
